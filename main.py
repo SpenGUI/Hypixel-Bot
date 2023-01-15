@@ -51,7 +51,7 @@ async def info(ctx, arg):
     hypixel_xp = getxp(get_uuid(arg))
     hypixel_level = getLevel(get_uuid(arg))
     print("https://gen.plancke.io/exp/" + arg + ".png")
-    embed=discord.Embed(title=title, description="Bot by SpenGUI#2220", color=0xFF5733)
+    embed=discord.Embed(title=title, description="Bot by spen#0001", color=0xFF5733)
     ###embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar_url)
     embed.set_image(url="https://gen.plancke.io/exp/" + arg + ".png")
     
